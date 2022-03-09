@@ -21,7 +21,7 @@ Usage
 #### Global:
 Most projects will use avro-to-typescript this way
 ```sh
-npm install -g @chasdevs/avro-to-typescript
+npm install -g @forked-soft/avro-to-typescript
 
 avro-to-typescript --compile [ schema-directory ] [ output-directory ]
 ```
@@ -30,16 +30,16 @@ output directory so have that in mind.
 
 You also need to install avro-to-typescript in your project.
 ```
-npm install @chasdevs/avro-to-typescript --save
+npm install @forked-soft/avro-to-typescript --save
 ```
 
 #### Project:
 This way is if your projects needs to generate avro classes while running.
 ```
-npm install @chasdevs/avro-to-typescript --save
+npm install @forked-soft/avro-to-typescript --save
 ```
 
-    import { Compiler } from "chasdevs/avro-to-typescript";
+    import { Compiler } from "forked-soft/avro-to-typescript";
 
     const compiler = new Compiler(outputDir);
     await compiler.compile(avro);
@@ -57,7 +57,7 @@ avro-to-typescript --compile [ schema-directory ] [ output-directory ] --logical
 
 You can also pass them to the compiler in your code directly:
 
-    import { Compiler } from "chasdevs/avro-to-typescript";
+    import { Compiler } from "forked-soft/avro-to-typescript";
 
     const compiler = new Compiler(outputDir, { date: 'string', 'timestamp-millis': 'string'} });
     await compiler.compile(avro);
@@ -69,8 +69,8 @@ Contribution and Support
 
 If you are having issues, please let us know on our issue tracker.
 
-- Issue Tracker: github.com/chasdevs/avro-to-typescript/issues
-- Source Code: github.com/chasdevs/avro-to-typescript
+- Issue Tracker: github.com/forked-soft/avro-to-typescript/issues
+- Source Code: github.com/forked-soft/avro-to-typescript
 
 
 License
