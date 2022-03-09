@@ -1,8 +1,8 @@
 {
-  "name": "@chasdevs/avro-to-typescript",
+  "name": "@forked-soft/avro-to-typescript",
   "version": "1.4.0",
   "description": "Package for converting Avro schema files (.avsc) to TypeScript class files",
-  "repository": "git@github.com:chasdevs/avro-to-typescript.git",
+  "repository": "git@github.com:forked-soft/avro-to-typescript.git",
   "keywords": [
     "avro",
     "avro schemas",
@@ -33,12 +33,12 @@
     "travis:test": "npm run build && npm run test",
     "premocha": "npm run build"
   },
-  "author": "chasdevs@gmail.com",
+  "author": "deepankar01agrawal@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chasdevs/avro-to-typescript/issues"
+    "url": "https://github.com/forked-soft/avro-to-typescript/issues"
   },
-  "homepage": "https://github.com/chasdevs/avro-to-typescript#readme",
+  "homepage": "https://github.com/forked-soft/avro-to-typescript#readme",
   "dependencies": {
     "avsc": "^5.4.13",
     "command-line-args": "^5.0.2",
