@@ -1,5 +1,5 @@
 import * as chai from "chai";
-import { PrimitiveConverter } from "components/Converters/PrimitiveConverter";
+import { PrimitiveConverter } from "../../../src/components/Converters/PrimitiveConverter";
 
 const expect = chai.expect;
 

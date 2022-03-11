@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES6",
+    "target": "ES2019",
+    "module": "CommonJS",
+    "skipDefaultLibCheck": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
     "skipLibCheck": true,
     "outDir": "dist" /* Redirect output structure to the directory. */,
-    "rootDir": "./" /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
-    "baseUrl": "src/",
-
+    "rootDir": "." /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
     "typeRoots": [
       "node_modules/@types"
     ] /* List of folders to include type definitions from. */,

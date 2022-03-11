@@ -1,7 +1,8 @@
 import * as chai from "chai";
-import { ClassConverter } from "components/Converters/ClassConverter";
+
 import * as fs from "fs";
 import * as path from "path";
+import { ClassConverter } from "../../../src/components/Converters/ClassConverter";
 import { dataDir } from "../../utils";
 
 const expect = chai.expect;
