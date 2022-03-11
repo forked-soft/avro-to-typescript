@@ -1,6 +1,6 @@
 # avro-to-typescript
 
-[![npm version](https://badge.fury.io/js/@forked-soft%2Favro-to-typescript.svg)](https://badge.fury.io/js/%40chasdevs%2Favro-to-typescript)
+[![npm version](https://badge.fury.io/js/@forked-soft%2Favro-to-typescript.svg)](https://badge.fury.io/js/@forked-soft%2Favro-to-typescript.svg)
 ![build status](https://github.com/forked-soft/avro-to-typescript/actions/workflows/build.yml/badge.svg)
 
 _Forked from [@chasdevs/avro-to-typescript](git@github.com:chasdevs/avro-to-typescript.git)_
