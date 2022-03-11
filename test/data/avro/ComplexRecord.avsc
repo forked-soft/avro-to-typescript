@@ -29,12 +29,9 @@
       "type": {
         "type": "map",
         "values": {
-          "type":
-          "record",
+          "type": "record",
           "name": "Foo",
-          "fields": [
-            {"name": "label", "type": "string"}
-          ]
+          "fields": [{ "name": "label", "type": "string" }]
         }
       }
     },
