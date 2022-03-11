@@ -29,7 +29,6 @@
     "test": "npm run format:check & npm run mocha",
     "format:check": "prettier -c .",
     "format:write": "prettier -w .",
-    "tslint-jenkins": "tslint --project tsconfig.json -o tslint.xml -t checkstyle",
     "mocha": "mocha dist/test --reporter=nyan --recursive",
     "travis:test": "npm run build && npm run test",
     "premocha": "npm run build"
