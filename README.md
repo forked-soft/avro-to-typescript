@@ -1,8 +1,8 @@
 # avro-to-typescript
 
-[![npm version](https://badge.fury.io/js/%40chasdevs%2Favro-to-typescript.svg)](https://badge.fury.io/js/%40chasdevs%2Favro-to-typescript)
+[![npm version](https://badge.fury.io/js/@forked-soft%2Favro-to-typescript.svg)](https://badge.fury.io/js/%40chasdevs%2Favro-to-typescript)
 
-_Forked from [@degordian/avro-to-typescript](git@github.com:bornfight/avro-to-typescript.git)_
+_Forked from [@chasdevs/avro-to-typescript](git@github.com:chasdevs/avro-to-typescript.git)_
 
 avro-to-typescript compiles avro schema files (.avsc) to TypeScript classes
 and interfaces. Making using avro schematics with node.js easy and comfortable.
