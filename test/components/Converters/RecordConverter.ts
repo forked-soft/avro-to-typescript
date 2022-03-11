@@ -1,7 +1,7 @@
 import * as chai from "chai";
+import { RecordConverter } from "components/Converters/RecordConverter";
 import * as fs from "fs";
 import * as path from "path";
-import { RecordConverter } from "../../../src";
 
 const expect = chai.expect;
 

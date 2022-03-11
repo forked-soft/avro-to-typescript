@@ -1,7 +1,7 @@
 import * as chai from "chai";
+import { EnumConverter } from "components/Converters/EnumConverter";
 import * as fs from "fs";
 import * as path from "path";
-import { EnumConverter } from "../../../src";
 
 const expect = chai.expect;
 

@@ -1,7 +1,7 @@
 import * as chai from "chai";
+import { Compiler } from "components/Compiler/Compiler";
 import * as fs from "fs-extra";
 import * as path from "path";
-import { Compiler } from "../../src";
 import { dataDir } from "../utils";
 
 const expect = chai.expect;

@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
+    "target": "ES6",
     "skipLibCheck": true,
     "outDir": "dist" /* Redirect output structure to the directory. */,
     "rootDir": "./" /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
+    "baseUrl": "src/",
+
     "typeRoots": [
       "node_modules/@types"
     ] /* List of folders to include type definitions from. */,
