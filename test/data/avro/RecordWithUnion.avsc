@@ -26,10 +26,7 @@
     },
     {
       "name": "unionType",
-      "type": [
-        "null",
-        "string"
-      ],
+      "type": ["null", "string"],
       "default": null
     }
   ]
