@@ -30,7 +30,7 @@
     "format:check": "prettier -c .",
     "format:write": "prettier -w .",
     "mocha": "mocha dist/test --reporter=nyan --recursive",
-    "travis:test": "npm run build && npm run test",
+    "actions:test": "npm run build && npm run test",
     "premocha": "npm run build"
   },
   "author": "deepankar01agrawal@gmail.com",
