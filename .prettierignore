@@ -4,3 +4,4 @@ dist
 /coverage
 generated
 package-lock.json
+.github
