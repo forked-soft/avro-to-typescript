@@ -1,6 +1,6 @@
 {
   "name": "@forked-soft/avro-to-typescript",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Package for converting Avro schema files (.avsc) to TypeScript class files",
   "repository": "git@github.com:forked-soft/avro-to-typescript.git",
   "keywords": [
